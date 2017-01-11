@@ -31,7 +31,7 @@ $ cd client-app
 $ yarn    # or `npm install`
 ```
 
-That's it :-)
+That's it :-) For more information, navigate to [README](client-app/README.md) in client-app directory.
 
 ## Usage
 
