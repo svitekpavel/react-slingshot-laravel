@@ -1,4 +1,4 @@
-## Laravel API Boilerplate (JWT Edition)
+## Laravel API Boilerplate (JWT Edition) + React Slingshot
 
 Laravel API Boilerplate is a "starter kit" you can use to build your first API in seconds. As you can easily imagine, it is built on top of the awesome Laravel Framework. This version is built on Laravel 5.3!
 
@@ -12,6 +12,8 @@ What I made is an integration of these three packages and a setup of some authen
 
 ## Installation
 
+### Server installation
+
 ```sh
 $ git clone https://github.com/svitekpavel/react-slingshot-laravel.git
 $ cd react-slingshot-laravel
@@ -21,6 +23,15 @@ $ php artisan migrate
 $ php artisan key:generate
 $ php artisan jwt:generate
 ```
+
+### Client installation
+
+```sh
+$ cd client-app
+$ yarn    # or `npm install`
+```
+
+That's it :-)
 
 ## Usage
 
@@ -33,7 +44,20 @@ Just be aware that some options in the `config/boilerplate.php` file are changed
 
 ## Start
 
+### Start server
+
 Start the server with `php artisan serve`. This will start your server on http://localhost:8000/.
+
+### Start client
+
+```
+$ cd client-app
+$ yarn start
+```
+
+The client application should be opened in your browser automatically. If not, navigate to http://localhost:3002/.
+
+Webpack will watch for file changes and will run lint, tests and reload the application in browser automatically.
 
 ### Accessing API
 
