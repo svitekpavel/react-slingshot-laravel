@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import * as ActionTypes from '../constants/actionTypes';
-import reducer from './fuelSavingsReducer';
-import {getFormattedDateTime} from '../utils/dateHelper';
+import * as ActionTypes from '../../constants/actionTypes';
+import reducer from './../fuelSavingsReducer';
+import {getFormattedDateTime} from '../../utils/dateHelper';
 
 describe('Reducers::FuelSavings', () => {
   const getInitialState = () => {

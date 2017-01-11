@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import calculator from './fuelSavingsCalculator';
+import calculator from './../fuelSavingsCalculator';
 
 describe('Fuel Savings Calculator', () => {
   describe('necessaryDataIsProvidedToCalculateSavings', () => {

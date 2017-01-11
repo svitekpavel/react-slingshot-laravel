@@ -1,4 +1,4 @@
-import NumberFormatter from './numberFormatter';
+import NumberFormatter from './../numberFormatter';
 import {expect} from 'chai';
 
 describe('Number Formatter', () => {

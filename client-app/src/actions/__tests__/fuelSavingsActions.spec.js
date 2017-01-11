@@ -1,12 +1,12 @@
-import * as ActionTypes from '../constants/actionTypes';
-import * as ActionCreators from './fuelSavingsActions';
+import * as ActionTypes from '../../constants/actionTypes';
+import * as ActionCreators from './../fuelSavingsActions';
 
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
 import MockDate from 'mockdate';
 import chai, { expect } from 'chai';
 
-import {getFormattedDateTime} from '../utils/dateHelper';
+import {getFormattedDateTime} from '../../utils/dateHelper';
 
 chai.use(sinonChai);
 

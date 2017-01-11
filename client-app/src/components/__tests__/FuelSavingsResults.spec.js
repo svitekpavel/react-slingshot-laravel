@@ -1,7 +1,7 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import {expect} from 'chai';
-import FuelSavingsResults from './FuelSavingsResults';
+import FuelSavingsResults from './../FuelSavingsResults';
 
 describe('<FuelSavingsResults />', () => {
   it('should display savings when savings exist', () => {

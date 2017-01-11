@@ -3,7 +3,7 @@ import {shallow} from 'enzyme';
 import chai, {expect} from 'chai';
 import sinon from 'sinon';
 import sinonChai from 'sinon-chai';
-import FuelSavingsTextInput from './FuelSavingsTextInput';
+import FuelSavingsTextInput from './../FuelSavingsTextInput';
 
 chai.use(sinonChai);
 
