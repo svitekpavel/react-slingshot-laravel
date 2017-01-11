@@ -12,10 +12,15 @@ What I made is an integration of these three packages and a setup of some authen
 
 ## Installation
 
-1. run `composer create-project francescomalatesta/laravel-api-boilerplate-jwt myNextProject`;
-2. have a coffee, nothing to do here;
-
-Once the project creation procedure will be completed, run the `php artisan migrate` command to install the required tables.
+```sh
+$ git clone https://github.com/svitekpavel/react-slingshot-laravel.git
+$ cd react-slingshot-laravel
+$ composer update
+$ sqlite3 database/database.sqlite ""
+$ php artisan migrate
+$ php artisan key:generate
+$ php artisan jwt:generate
+```
 
 ## Usage
 
